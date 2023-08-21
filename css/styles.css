@@ -85,14 +85,12 @@ h2{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    margin: 0 auto 1.5rem;
+    margin: 1rem auto;
 }
 
 
 .list-a .food-image:hover {
-    height: 176px;
-    width: 176px;
-    margin: -0.55rem auto;
+    transform: scale(1.15);
 }
 
 li a {
