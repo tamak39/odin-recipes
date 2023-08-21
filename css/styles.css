@@ -55,38 +55,52 @@ h2{
 
 .list-a {
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 95vw;
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
-.list-a li {
-    width: 260px;
+.container {
+    width: 300px;
+    background-color: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* hacky af main page container setup */
+
+.container h2 {
+    all: unset;
+    background-color: hsl(36, 55%, 80%);
+    display: block;
+    margin: -1rem -1rem 2rem -1rem;
+    padding: 0.5rem;
+    border-radius: 5px 5px 0 0;
 }
 
 .list-a .food-image {
     height: 150px;
     width: 150px;
     object-fit: cover;
-    margin: 50px auto 16px;
+    margin: 0 auto 1.5rem;
 }
 
 
 .list-a .food-image:hover {
     height: 176px;
     width: 176px;
-    margin-top: 34px;
-    margin-bottom: 6px;
+    margin: -0.55rem auto;
 }
 
 li a {
     line-height: 2;
     text-decoration: none;
-    color: #48d;
+    color: black;
 }
 
 li a:visited {
-    color: #06d;
+    color: black;
 }
