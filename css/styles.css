@@ -55,11 +55,12 @@ h2{
 
 .list-a {
     margin: 0 auto;
-    max-width: 95vw;
+    max-width: 80vw;
     list-style: none;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .container {
