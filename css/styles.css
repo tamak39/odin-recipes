@@ -9,6 +9,7 @@
 body {
     font-family: Tahoma,sans-serif;
     background-color: #eee;
+    min-height: 100vh;
 }
 
 h1 {
@@ -54,20 +55,22 @@ h2{
 /* main page link stuff */
 
 .list-a {
-    margin: 0 auto;
+    margin: 4rem auto 0;
     max-width: 80vw;
     list-style: none;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 3rem;
 }
 
 .container {
-    width: 300px;
+    width: min-content;
+    flex: 0 1 min-content;
     background-color: #ddd;
-    margin: 1rem;
-    padding: 1rem;
+    padding: 0 2rem 1rem;
     border-radius: 5px;
 }
 
@@ -77,21 +80,21 @@ h2{
     all: unset;
     background-color: hsl(36, 55%, 80%);
     display: block;
-    margin: -1rem -1rem 2rem -1rem;
+    margin: -1rem -2rem 2rem -2rem;
     padding: 0.5rem;
     border-radius: 5px 5px 0 0;
 }
 
 .list-a .food-image {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     margin: 1rem auto;
 }
 
 
 .list-a .food-image:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 li a {
