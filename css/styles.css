@@ -62,8 +62,7 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    row-gap: 3rem;
+    gap: 3rem 2rem; /* Shorthand, order is col row*/
 }
 
 .container {
