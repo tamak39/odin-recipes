@@ -8,19 +8,16 @@
 
 body {
     font-family: Tahoma,sans-serif;
-    background-color: #eee;
+    background-color: #ffeee6;
     min-height: 100vh;
 }
 
 h1 {
     font-family: Georgia, serif;
     text-align: center;
-    max-height: 20vh;
     border-bottom: 2px solid #8aa;
     padding: 15px;
-    margin-bottom: 20px;
-    background-color: #ddd;
-    font-size: 3rem;
+    background-color: hsl(20deg 50% 70% / 0.6);
 }
 
 h2{
@@ -56,22 +53,22 @@ h2{
 /* main page link stuff */
 
 .list-a {
-    margin: 3rem auto 0;
-    max-width: 80vw;
-    height: 75vh;
+    margin: 0 auto;
+    padding: 3rem 2rem 2rem;
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem 2rem; /* Shorthand, order is col row*/
+    gap: 2rem;
     align-items: center;
+    flex: auto;
 }
 
 .container {
     width: min-content;
     flex: 0 1 min-content;
-    background-color: #ddd;
+    background-color: #ddd8;
     padding: 0 2rem 1rem;
     border-radius: 5px;
 }
@@ -107,4 +104,17 @@ li a {
 
 li a:visited {
     color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 5vh;
+    width: 100%;
+    background-color: hsl(20deg 50% 70% / 0.6);
+    border-top:2px solid #8aa;
 }
